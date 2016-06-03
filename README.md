@@ -1,4 +1,4 @@
-# cSphere Docker 实训课程
+# Docker 实训课程
 
 ## 课程安排
 - 第一讲 Docker 实战之入门以及 Dockerfile
@@ -8,8 +8,6 @@
 - 第五讲 Docker 实战之持续部署以及弹性伸缩
 - 第六讲 Docker 实战之存储
 
-##课程火热进行中，接地气的**开源免费**培训课程，并有礼品赠送。[报名地址](https://csphere.cn/training)
-##第四讲 2015年7月15日 周二 晚21:00开课 [报名地址](https://csphere.cn/training)
 
 ###第一讲
 ```
