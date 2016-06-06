@@ -1,11 +1,4 @@
-#
-# MAINTAINER        Carson,C.J.Zeong <zcy@nicescale.com>
-# DOCKER-VERSION    1.6.2
-#
-# Dockerizing Jenkins: Dockerfile for building Jenkins images
-#
-FROM       csphere/jdk:1.7.0
-MAINTAINER Carson,C.J.Zeong <zcy@nicescale.com>
+FROM       cisco/jdk:1.7.0
 
 ENV JENKINS_HOME /var/jenkins_home
 ENV JENKINS_VERSION 1.609.1
