@@ -1,5 +1,5 @@
 mysql:
-   image: csphere/mysql:5.5
+   image: cisco/mysql:5.5
    ports: 
      - "3306:3306"
    volumes:
@@ -7,7 +7,7 @@ mysql:
    hostname: mydb.server.com
 
 tomcat:
-   image: csphere/tomcat:7.0.55
+   image: cisco/tomcat:7.0.55
    ports:
       - "8080:8080"
    links:
