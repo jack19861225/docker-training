@@ -1,11 +1,4 @@
-#
-# MAINTAINER        Carson,C.J.Zeong <zcy@nicescale.com>
-# DOCKER-VERSION    1.6.2
-#
-# Dockerizing Mariadb: Dockerfile for building Mariadb images
-#
-FROM csphere/centos:7.1
-MAINTAINER Carson,C.J.Zeong <zcy@nicescale.com>
+FROM cisco/centos:7.1
 
 ENV DATA_DIR /var/lib/mysql
 
