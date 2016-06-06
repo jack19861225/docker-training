@@ -1,11 +1,4 @@
-#
-# MAINTAINER        Carson,C.J.Zeong <zcy@nicescale.com>
-# DOCKER-VERSION    1.6.2
-#
-# Dockerizing TOMCAT: Dockerfile for building TOMCAT images
-#
-FROM       csphere/jre:1.7.0
-MAINTAINER Carson,C.J.Zeong <zcy@nicescale.com>
+FROM       cisco/jre:1.7.0
 
 ENV TOMCAT_MAJOR_VERSION 7
 ENV TOMCAT_MINOR_VERSION 7.0.55
